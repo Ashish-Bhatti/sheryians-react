@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --aspect-retro: 9 / 16;
+}
