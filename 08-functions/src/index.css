@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: aliceblue;
+}
+
+div{
+  padding: 2rem;
+  background: gray;
+  width: 100vw;
+  display: flex;
+  height: 400vh;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: self-start;
+}

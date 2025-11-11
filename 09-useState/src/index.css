@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: whitesmoke;
+  padding: 2rem;
+}
+
+.main{
+  background:gray;
+  padding: 2rem;
+  width: 600px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.btns{
+  margin-block: 2rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  padding: .5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background: greenyellow;
+}
+
